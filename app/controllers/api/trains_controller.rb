@@ -1,3 +1,5 @@
-class API::TrainsController < ApplicationController
-
+class Api::TrainsController < ApplicationController
+	def index
+		render json: {}
+	end
 end
