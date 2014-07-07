@@ -7,13 +7,16 @@ class Api::TrainsController < ApplicationController
     web_page = Nokogiri::HTML(open("http://ojp.nationalrail.co.uk/service/timesandfares/#{params[:from]}/#{params[:to]}/today/#{params[:time]}/dep"))
 
     web_page.css('#oft tbody .mtx').each do |link|
-      from = link.css('.from').text.gsub(/\n/, "").gsub(/\t/, "").gsub(/\[.*\]/, "").gsub(/\<span.*\/span\//, "")
-      to = link.css('.to').text.gsub(/\n/, "").gsub(/\t/, "").gsub(/\[.*\]/, "").gsub(/\<span.*\/span\//, "")
+      from = link.css('.from').text.gsub(/\n/, "").gsub(/\t/, "").gsub(/\[.*\].*/, "").lstrip.chop
+      to = link.css('.to').text.gsub(/\n/, "").gsub(/\t/, "").gsub(/\[.*\].*/, "").lstrip.chop
+      from_code = link.css('.from').text.match(/\[(.*?)\]/)
+      from_code = $1
+      to_code = link.css('.to').text.match(/\[(.*?)\]/)
+      to_code = $1
       dep = link.css('.dep').text.gsub(/\n/, "").gsub(/\t/, "")
-      arr = link.css('.dep').text.gsub(/\n/, "").gsub(/\t/, "")
-      trains << {from: from , to: to, dep: dep, arr: arr}
+      arr = link.css('.arr').text.gsub(/\n/, "").gsub(/\t/, "")
+      trains << {from: from , to: to, dep: dep, arr: arr, from_code: from_code, to_code: to_code}
     end
-    puts trains.inspect
-    render json: {}
+    render json: trains
 	end
 end
