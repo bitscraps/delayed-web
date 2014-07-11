@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Renegade-Master';
+    src:url('/assets/Renegade-Master.ttf.woff') format('woff'),
+        url('/assets/Renegade-Master.ttf.svg#Renegade-Master') format('svg'),
+        url('/assets/Renegade-Master.ttf.eot'),
+        url('/assets/Renegade-Master.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+}
+
+body {
+  background: rgb(73,73,73); /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(73,73,73,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(73,73,73,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(73,73,73,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  rgba(73,73,73,1) 0%,rgba(0,0,0,1) 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  rgba(73,73,73,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  rgba(73,73,73,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#494949', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+h1 {
+  color: #FCB330;
+  font-size: 68px;
+      font-family: 'Renegade-Master';
+
+    font-weight: normal;
+    font-style: normal;
+    width:auto;
+    margin:auto;
+    text-align:center;
+    margin-top:100px;
+}
+
+h2 {
+
+  color: #FCB330;
+  font-weight:normal;
+  max-width:800px;
+      font-family: 'Renegade-Master';
+  font-size:38px;
+   width:auto;
+    margin:auto;
+    text-align:center;
+    margin-top:100px;
+}

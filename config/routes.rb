@@ -1,13 +1,15 @@
 Rails.application.routes.draw do
+  root 'marketing#index'
+
+  resources :marketing do
+    member do
+      get 'index'
+    end
+  end
+
   namespace :api, :defaults => {:format => :json} do
     resources :trains
   end
-
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
