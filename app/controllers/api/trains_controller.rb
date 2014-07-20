@@ -5,8 +5,8 @@ class Api::TrainsController < ApplicationController
   def index
     if params["from"] && params["to"] && params["time"]
       trains = []
-      puts "http://ojp.nationalrail.co.uk/service/timesandfares/#{params["from"]}/#{params["to"]}/today/#{params["time"]}/dep"
-      web_page = Nokogiri::HTML(open("http://ojp.nationalrail.co.uk/service/timesandfares/#{params["from"]}/#{params["to"]}/today/#{params["time"]}/dep"))
+      puts "http://ojp.nationalrail.co.uk/service/timesandfares/#{params["from"]}/#{params["to"]}/tomorrow/#{params["time"]}/dep"
+      web_page = Nokogiri::HTML(open("http://ojp.nationalrail.co.uk/service/timesandfares/#{params["from"]}/#{params["to"]}/tomorrow/#{params["time"]}/dep"))
       web_page.css('#oft tbody .mtx').each do |link|
         from = link.css('.from').text.gsub(/\n/, "").gsub(/\t/, "").gsub(/\[.*\].*/, "").lstrip.chop
         to = link.css('.to').text.gsub(/\n/, "").gsub(/\t/, "").gsub(/\[.*\].*/, "").lstrip.chop
