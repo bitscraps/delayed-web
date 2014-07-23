@@ -45,7 +45,7 @@ end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'capistrano', '~> 3.1.0'
+gem 'capistrano', '~> 3.2.1'
 
 # rails specific capistrano funcitons
 gem 'capistrano-rails', '~> 1.1.0'
