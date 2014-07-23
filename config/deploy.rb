@@ -1,9 +1,9 @@
 # config valid only for Capistrano 3.1
-lock '3.1.0'
+lock '3.2.1'
 
 set :rbenv_ruby, File.read('.ruby-version').strip
 
-set :application, 'delayed.co.uk'
+set :application, 'delayedapp.co.uk'
 
 set :scm, :git
 set :repo_url,  "git@bitbucket.org:ghadgraft/delayed-web.git"
@@ -12,7 +12,7 @@ set :repo_url,  "git@bitbucket.org:ghadgraft/delayed-web.git"
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/var/www/delayed.co.uk'
+set :deploy_to, '/var/www/delayedapp.co.uk'
 
 # Default value for :scm is :git
 set :scm, :git
