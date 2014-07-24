@@ -12,7 +12,7 @@ class Api::DeparturesController < ApplicationController
           trains = link.css('.status').text
         end
       end
-      render json: trains
+      render json: {status: trains}
     else 
       render json: {error: "missing some or all parameters", text: "Please ensure that you have passed the 'from', 'to' and 'time' parameters."}, status: 400
 	   end
