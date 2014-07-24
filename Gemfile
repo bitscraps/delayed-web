@@ -9,6 +9,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'chronic'
+gem 'national_rail'
+gem 'rubyntlm'
 
 
 gem 'nokogiri'

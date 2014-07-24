@@ -1,7 +1,12 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/graham/Sites/delayed/app/controllers/api/trains_controller.rb": [
+      "/Users/graham/Sites/delayed/app/controllers/api/departures_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
         1,
         1,
         1,
@@ -9,22 +14,11 @@
         1,
         2,
         1,
-        1,
-        1,
-        1,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
+        null,
         null,
         1,
         null,
-        1,
+        0,
         null,
         null,
         null
@@ -37,6 +31,6 @@
         null
       ]
     },
-    "timestamp": 1405896215
+    "timestamp": 1406239490
   }
 }
