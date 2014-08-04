@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'chronic'
 gem 'national_rail'
 gem 'rubyntlm'
+gem 'typhoeus'
 
 
 gem 'nokogiri'
