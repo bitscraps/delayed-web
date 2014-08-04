@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   namespace :api, :defaults => {:format => :json} do
     resources :trains
     resources :departures
+    resources :notifications
   end
 
   # Example of regular route:

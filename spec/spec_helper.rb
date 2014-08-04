@@ -11,6 +11,7 @@ require 'capybara/poltergeist'
 require 'database_cleaner'
 
 require 'shoulda/matchers'
+require 'vcr'
 
 require "simplecov"
 SimpleCov.start
@@ -26,6 +27,8 @@ RSpec.configure do |config|
   config.run_all_when_everything_filtered = true
 
 
+
+config.before(:suite) { ActiveRecord::Migration.maintain_test_schema! }
   # ## Mock Framework
   #
   # If you prefer to use mocha, flexmock or RR, uncomment the appropriate line:

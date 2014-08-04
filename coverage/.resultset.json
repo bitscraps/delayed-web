@@ -12,7 +12,7 @@
         1,
         null,
         1,
-        2,
+        6,
         1,
         null,
         null,
@@ -28,6 +28,49 @@
         null,
         null,
         1,
+        null
+      ],
+      "/Users/graham/Sites/delayed/spec/controllers/api/notifications_controller_spec.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/graham/Sites/delayed/app/controllers/api/notifications_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        1,
+        null,
         null
       ],
       "/Users/graham/Sites/delayed/spec/controllers/api/trains_controller_spec.rb": [
@@ -83,8 +126,12 @@
         null,
         null,
         null
+      ],
+      "/Users/graham/Sites/delayed/app/models/notification.rb": [
+        1,
+        null
       ]
     },
-    "timestamp": 1406240641
+    "timestamp": 1407179588
   }
 }

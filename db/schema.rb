@@ -11,6 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20140804195600) do
+
+  create_table "notifications", force: true do |t|
+    t.string   "departing_from"
+    t.string   "departing_from_code"
+    t.string   "arriving_at"
+    t.string   "arriving_at_code"
+    t.string   "departing_time"
+    t.string   "repeating"
+    t.string   "device"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "arrival_time"
+  end
 
 end
