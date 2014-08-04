@@ -1,6 +1,6 @@
 class Api::NotificationsController < ApplicationController
 
-  def index
+  def create
 
     notification = Notification.new(
       departing_from: params[:from],

@@ -1,51 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/graham/Sites/delayed/app/controllers/api/departures_controller.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        6,
-        1,
-        null,
-        null,
-        1,
-        null,
-        0,
-        null,
-        null,
-        null
-      ],
-      "/Users/graham/Sites/delayed/app/controllers/application_controller.rb": [
-        1,
-        null,
-        null,
-        1,
-        null
-      ],
-      "/Users/graham/Sites/delayed/spec/controllers/api/notifications_controller_spec.rb": [
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
       "/Users/graham/Sites/delayed/app/controllers/api/notifications_controller.rb": [
         1,
         null,
@@ -73,58 +28,11 @@
         null,
         null
       ],
-      "/Users/graham/Sites/delayed/spec/controllers/api/trains_controller_spec.rb": [
+      "/Users/graham/Sites/delayed/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/graham/Sites/delayed/app/controllers/api/trains_controller.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        2,
-        1,
-        1,
-        1,
-        1,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null,
         null
       ],
       "/Users/graham/Sites/delayed/app/models/notification.rb": [
@@ -132,6 +40,6 @@
         null
       ]
     },
-    "timestamp": 1407179588
+    "timestamp": 1407180265
   }
 }
