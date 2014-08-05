@@ -22,4 +22,14 @@ class Api::NotificationsController < ApplicationController
 
     render json: response
   end
+
+  def destroy
+    notification.where("departing_from_code = ? AND arriving_at_code = ? AND departing_time = ? AND repeating = ? AND device = ?", params[:from_code], params[:to_code], params[:departing_at], params[:repeating], params[:device])
+
+    if notification.destroy
+      response = {:status => "Saved"}
+    else
+      response = {:status => "unable to save"}
+    end
+  end
 end
