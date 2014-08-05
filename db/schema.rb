@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140804195600) do
+ActiveRecord::Schema.define(version: 20140805180416) do
 
   create_table "notifications", force: true do |t|
     t.string   "departing_from"
@@ -24,6 +24,13 @@ ActiveRecord::Schema.define(version: 20140804195600) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "arrival_time"
+  end
+
+  create_table "sent_notifications", force: true do |t|
+    t.string   "channel"
+    t.string   "message"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

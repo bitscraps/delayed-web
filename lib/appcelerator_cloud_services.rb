@@ -22,14 +22,16 @@ class AppceleratorCloudServices
         	method: :post,
         	body: {channel: channel, to_ids: "everyone", payload: message}
         )
+        SentNotification.create(message:message, channel: channel)
         response = request.run
         puts request.inspect
         puts "\n\n"
         puts response.inspect
     end
 
-    def new_message?
-        true
+    def new_message?(message, channel)
+        notification = SentNotification.where("message = ? AND channel = ? AND created_at > ?", message, channel, Time.now-2.hours)
+        notification.size == 0
     end
 
 end

@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/grahamhadgraft/Sites/mysites/delayed-web/app/controllers/api/departures_controller.rb": [
+      "/Users/graham/Sites/delayed/app/controllers/api/departures_controller.rb": [
         1,
         1,
         1,
@@ -18,14 +18,14 @@
         null,
         null
       ],
-      "/Users/grahamhadgraft/Sites/mysites/delayed-web/app/controllers/application_controller.rb": [
+      "/Users/graham/Sites/delayed/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         null,
         null
       ],
-      "/Users/grahamhadgraft/Sites/mysites/delayed-web/lib/timetable.rb": [
+      "/Users/graham/Sites/delayed/lib/timetable.rb": [
         1,
         1,
         1,
@@ -80,7 +80,7 @@
         null,
         null
       ],
-      "/Users/grahamhadgraft/Sites/mysites/delayed-web/spec/controllers/api/notifications_controller_spec.rb": [
+      "/Users/graham/Sites/delayed/spec/controllers/api/notifications_controller_spec.rb": [
         1,
         null,
         null,
@@ -96,7 +96,7 @@
         null,
         null
       ],
-      "/Users/grahamhadgraft/Sites/mysites/delayed-web/app/controllers/api/notifications_controller.rb": [
+      "/Users/graham/Sites/delayed/app/controllers/api/notifications_controller.rb": [
         1,
         null,
         1,
@@ -123,7 +123,7 @@
         null,
         null
       ],
-      "/Users/grahamhadgraft/Sites/mysites/delayed-web/spec/controllers/api/trains_controller_spec.rb": [
+      "/Users/graham/Sites/delayed/spec/controllers/api/trains_controller_spec.rb": [
         1,
         null,
         null,
@@ -151,7 +151,7 @@
         null,
         null
       ],
-      "/Users/grahamhadgraft/Sites/mysites/delayed-web/app/controllers/api/trains_controller.rb": [
+      "/Users/graham/Sites/delayed/app/controllers/api/trains_controller.rb": [
         1,
         1,
         1,
@@ -179,7 +179,70 @@
         null,
         null
       ],
-      "/Users/grahamhadgraft/Sites/mysites/delayed-web/spec/lib/timetable_spec.rb": [
+      "/Users/graham/Sites/delayed/spec/lib/appcelerator_cloud_services_spec.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/graham/Sites/delayed/lib/appcelerator_cloud_services.rb": [
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/graham/Sites/delayed/spec/lib/timetable_spec.rb": [
         1,
         1,
         null,
@@ -284,11 +347,22 @@
         null,
         null
       ],
-      "/Users/grahamhadgraft/Sites/mysites/delayed-web/app/models/notification.rb": [
+      "/Users/graham/Sites/delayed/spec/models/sent_notification_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/graham/Sites/delayed/app/models/sent_notification.rb": [
+        1,
+        null
+      ],
+      "/Users/graham/Sites/delayed/app/models/notification.rb": [
         1,
         null
       ]
     },
-    "timestamp": 1407250404
+    "timestamp": 1407263295
   }
 }
