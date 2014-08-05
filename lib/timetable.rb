@@ -10,6 +10,8 @@ class Timetable
         	  @service_status = link.css('.status').text
         	end
       	end
+
+        @web_page.inspect
 	end
 
 	def status_is_available?
@@ -17,16 +19,20 @@ class Timetable
 	end
 
   def get_service_status
+    status = '--:--'
     if status_is_available?
-
       if @service_status =~ /(..:..)(..:..)  (.*)/m
-        get_new_departure_time
+        status = get_new_departure_time
+      elsif @service_status =~ /On Time/i
+        status = @service_status
       else
-        @service_status.gsub!(/..:../, '').chop
+        status = @service_status.gsub!(/..:../, '').chop
       end
     else
-      "--:--"
+      status = "--:--"
     end
+
+    status
   end
 
   def is_delayed?

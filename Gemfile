@@ -17,21 +17,10 @@ gem 'typhoeus'
 
 gem 'nokogiri'
 
-group :development, :test do
-  gem 'rspec-rails', '~> 2.0'
-  gem 'capybara'
-  gem 'factory_girl_rails'
-  gem 'faker'
 
-  gem 'guard-rspec'
-  gem 'spring'
-  gem "spring-commands-rspec"
-  gem 'database_cleaner'
-  gem 'utensils'
-  gem 'launchy'
-  gem 'simplecov', :require => false
-  gem 'vcr'
-  gem 'webmock'
+
+group :development, :test do
+ 
 
   gem 'growl'
   gem 'yard'
@@ -46,6 +35,20 @@ end
 group :test do
   gem 'poltergeist'
   gem 'shoulda'
+   gem 'rspec-rails', '~> 2.0'
+  gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'faker'
+
+  gem 'guard-rspec'
+  gem 'spring'
+  gem "spring-commands-rspec"
+  gem 'database_cleaner'
+  gem 'utensils'
+  gem 'launchy'
+  gem 'simplecov', :require => false
+  gem 'vcr'
+  gem 'webmock'
 end
 
 # Use ActiveModel has_secure_password

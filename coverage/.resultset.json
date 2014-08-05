@@ -39,6 +39,8 @@
         null,
         null,
         null,
+        12,
+        null,
         null,
         1,
         8,
@@ -46,15 +48,19 @@
         null,
         1,
         4,
-        null,
+        4,
         3,
         1,
+        null,
+        0,
         null,
         2,
         null,
         null,
         1,
         null,
+        null,
+        4,
         null,
         null,
         1,
@@ -347,22 +353,15 @@
         null,
         null
       ],
-      "/Users/graham/Sites/delayed/spec/models/sent_notification_spec.rb": [
-        1,
-        null,
-        1,
+      "/Users/graham/Sites/delayed/app/models/notification.rb": [
         1,
         null
       ],
       "/Users/graham/Sites/delayed/app/models/sent_notification.rb": [
         1,
         null
-      ],
-      "/Users/graham/Sites/delayed/app/models/notification.rb": [
-        1,
-        null
       ]
     },
-    "timestamp": 1407263295
+    "timestamp": 1407264818
   }
 }
