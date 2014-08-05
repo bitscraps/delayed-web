@@ -18,10 +18,11 @@ class Timetable
 
   def get_service_status
     if status_is_available?
-      if is_delayed?
+
+      if @service_status =~ /(..:..)(..:..)  (.*)/m
         get_new_departure_time
       else
-        "ON TIME"
+        @service_status.gsub!(/..:../, '').chop
       end
     else
       "--:--"
@@ -29,7 +30,9 @@ class Timetable
   end
 
   def is_delayed?
-      @service_status.upcase != "ON TIME"
+    if status_is_available?
+        @service_status.upcase != "ON TIME"
+    end
   end
 
   def get_original_departure_time
@@ -43,8 +46,8 @@ class Timetable
   end
 
   def get_delay_length
-  	@service_status =~ /(..:..)(..:..)  (.*)/
-  	$3
+  	@service_status =~ /(..:..)(..:..)  (.*)/m
+  	delay = $3
   end
 
 end

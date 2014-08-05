@@ -31,6 +31,7 @@ group :development, :test do
   gem 'launchy'
   gem 'simplecov', :require => false
   gem 'vcr'
+  gem 'webmock'
 
   gem 'growl'
   gem 'yard'

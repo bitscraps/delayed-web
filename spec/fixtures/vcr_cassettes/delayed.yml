@@ -1,0 +1,696 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ojp.nationalrail.co.uk/service/ldbboard/dep/MAN/MIA/To
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      - no-store
+      Content-Language:
+      - en-GB
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Date:
+      - Tue, 05 Aug 2014 14:20:11 GMT
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Last-Modified:
+      - Tue, 05 Aug 2014 14:20:11 GMT
+      P3p:
+      - CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=F08C4566CC53CBDF844A0F35F7205001.app117; Path=/
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Powered-By:
+      - An infinite number of monkeys
+      Content-Length:
+      - '9168'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\n<!DOCTYPE
+        html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">\n<head>\n
+        \   <title>National Rail Enquiries - Live Departure Boards</title>\n    <script
+        type=\"text/javascript\">document.documentElement.className += \" jq js\";</script>\n
+        \   \n    <meta http-equiv=\"Content-Language\" content=\"en-gb\" />\n    <meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />\n
+        \   <meta name=\"description\" content=\"The gateway to Britain's National
+        Rail network. A portal into UK rail travel including train company information
+        and promotions; train times; fares enquiries; ticket purchase and train running
+        information.\"/>\n    <meta name=\"keywords\" content=\"national rail, british
+        rail, trains, railway, uk rail travel, train times, train timetables, train
+        information, uk trains, uk railway, late trains\"/>\n    <meta name=\"author\"
+        content=\"Thales\" />\n    \n    <!-- Pinning API http://msdn.microsoft.com/en-gb/library/gg491732.aspx
+        -->\n    <!--[if IE 9]><meta name=\"application-name\" content=\"NRE Live
+        Boards\" />\n    <meta name=\"msapplication-tooltip\" content=\"NRE Live Boards
+        - Find your train times\" />\n    <meta name=\"msapplication-starturl\" content=\"http://ie9.nationalrail.co.uk/\"
+        />\n    <meta name=\"msapplication-window\" content=\"width=1100;height=800\"
+        />\n    <meta name=\"msapplication-navbutton-color\" content=\"#FF3300\" /><![endif]-->\n
+        \           \n    <meta http-equiv=\"expires\" content=\"0\" />\n    <meta
+        http-equiv=\"Pragma\" content=\"no-cache\" />\n    <meta http-equiv=\"Cache-control\"
+        content=\"no-cache, no-store, must-revalidate\" />\n    \n    \n    \n    <link
+        rel=\"alternate\" type=\"application/rss+xml\" title=\"Promotions\" href=\"http://www.nationalrail.co.uk/rss/promotions.xml\"
+        />\n    <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Service
+        Alterations\" href=\"http://www.nationalrail.co.uk/rss/service-alterations.xml\"
+        />\n    <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Engineering
+        Works\" href=\"http://www.nationalrail.co.uk/rss/engineering-works.xml\" />\n
+        \           \n    <script type=\"text/javascript\" src=\"/redesign/default/javascript/sp.js\"></script>\n
+        \   <script type=\"text/javascript\" id=\"optimost_global_head\" src=\"//d2uncb19xzxhzx.cloudfront.net/autonomy/optimost_global_head.js\"></script>\n
+        \   \n    \n    \n    \n        \n        \n            \n\n<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"/redesign/default/css/home.css\" media=\"screen,
+        projection\" />\n<!--<link rel=\"stylesheet\" type=\"text/css\" href=\"/redesign/default/css/split-home-signed-out.css\"
+        media=\"screen, projection\" />-->\n\n\t<link rel=\"stylesheet\" type=\"text/css\"
+        href=\"/redesign/default/css/other.css\" media=\"screen, projection\" />\n\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/redesign/default/css/print.css\"
+        media=\"print\" />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/redesign/default/css/ticksum.css\"
+        media=\"screen, projection\" />\n<!--[if IE]><![endif]-->\n<!--[if IE]><link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/redesign/default/css/ie.css\"
+        media=\"screen, projection\" /><![endif]-->\n<!--[if lte IE 8]><link rel=\"stylesheet\"
+        type=\"text/css\" href=\"/redesign/default/css/lte-ie8.css\" media=\"screen,
+        projection\" /><![endif]-->\n<!--[if IE 8]><link rel=\"stylesheet\" type=\"text/css\"
+        href=\"/redesign/default/css/ie8.css\" media=\"screen, projection\" /><![endif]-->\n<!--[if
+        IE 7]><link rel=\"stylesheet\" type=\"text/css\" href=\"/redesign/default/css/ie7.css\"
+        media=\"screen, projection\" /><![endif]-->\n<!--[if lte IE 6]><link rel=\"stylesheet\"
+        type=\"text/css\" href=\"/redesign/default/css/ie6.css\" media=\"screen, projection\"
+        /><![endif]-->\n        \n    \n    \n    <link rel=\"apple-touch-icon\" href=\"//d7cizd44vlm94.cloudfront.net/icon-ios.png\"
+        />\n    \n    \n        <noscript><meta http-equiv=\"refresh\" content=\"0;
+        url=?j=0\"/></noscript>\n    \n    \n    \n    \n    \n    \n    <!-- DFP
+        Tags -->\n    \n<script type='text/javascript'>\n    (function () {\n        var
+        useSSL = 'https:' == document.location.protocol;\n        var src = (useSSL
+        ? 'https:' : 'http:') +\n        '//www.googletagservices.com/tag/js/gpt.js';\n
+        \       document.write('<scr' + 'ipt src=\"' + src + '\"></scr' + 'ipt>');\n
+        \   })();\n</script>\n\n<script type='text/javascript'>\n\t\n\t\t\n    \t\n\t\t\n\t\t\tgoogletag.defineSlot('/7369/nre/train_time/live_depart/results',
+        [[728, 90],[468,60]], 'ad-top').addService(googletag.pubads()).setTargeting('pos',
+        '0');\n\t\t\tgoogletag.defineSlot('/7369/nre/train_time/live_depart/results',
+        [[728, 90],[468,60]], 'ad-bottom').addService(googletag.pubads()).setTargeting('pos',
+        '1');\n\t\t\tgoogletag.defineSlot('/7369/nre/train_time/live_depart/results',
+        [[125, 125],[1,1]], 'ad-side-1').addService(googletag.pubads()).setTargeting('pos',
+        '0');\n\t\t    googletag.defineSlot('/7369/nre/train_time/live_depart/results',
+        [[120, 600],[160,600]], 'ad-side-2').addService(googletag.pubads()).setTargeting('pos',
+        '0');\n\t\t\n\t\t\n\t\n\t\t\n    \n\t\tgoogletag.pubads().setTargeting(\"user\",
+        \"public\");\n\t\n\t\tgoogletag.pubads().setTargeting(\"locst\", \"MAN\");\n\t\n\t\tgoogletag.pubads().setTargeting(\"destst\",
+        \"MIA\");\n\t\n\t\tgoogletag.pubads().setTargeting(\"status\", \"del\");\n\t\n\t\tgoogletag.pubads().setTargeting(\"status\",
+        \"can\");\n\t\n\t\tgoogletag.pubads().setTargeting(\"toc\", \"NT\");\n\t\n\t\tgoogletag.pubads().setTargeting(\"toc\",
+        \"TP\");\n\t\n\tgoogletag.pubads().enableSingleRequest();\n\tgoogletag.pubads().enableSyncRendering();
+        \   \n    googletag.enableServices();\n</script>\n\t    \n    \n</head>\n<body>\n\n\n<div
+        class=\"page \">\n    \n    <div class=\"shortcuts\" id=\"skip-shortcuts\">\n
+        \   <ul>\n        <li><a href=\"#skip-content\" accesskey=\"1\" id=\"cont-skip\">Skip
+        to content [Accesskey '1']</a></li>\n        <li><a href=\"#skip-nav\" accesskey=\"2\"
+        id=\"nav-skip\">Skip to navigation [Accesskey '2']</a></li>\n    </ul>\n</div>\n\t\n\n<div
+        class=\"u-menu\">\n\t<div class=\"c clear\">\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t<ul>\n\t
+        \               <li class=\"acc clear\">\n\t                \t<a href=\"/personal/login/login\"
+        target=\"_parent\">\n\t\t                    <img src=\"/redesign/default/images/clear.gif\"
+        alt=\"\" class=\"sprite-home\" width=\"15\" height=\"17\"/>\n\t\t                    <span>\n\t\t
+        \                   \tSign in\n\t\t                    </span>\n\t                    </a>\n\t
+        \               </li>\n\t                <li>\n\t                \t<a href=\"/personal/registration/register\"
+        target=\"_parent\">\n\t                \t\tCreate Account\n\t                \t</a>\n\t
+        \               </li>\n\t            </ul>\t            \n\t\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t<!--
+        Share & Search Section -->\n\t\t\n        <div class=\"s clear\">\n            <div
+        id=\"facebook\">\n            </div>\n            <!-- Start of Share Menu-->\n<div
+        id=\"sh\">\n    <p>\n        <span>Share <span class=\"accessibility\">on</span></span></p>\n
+        \   <div class=\"m\">\n        <ul class=\"clear\">\n            <li class=\"fb\"><a
+        href=\"http://www.facebook.com/sharer.php?u=http://ojp.nationalrail.co.uk/service/ldbboard/dep/MAN/MIA/To&amp;t=Live
+        Departure Boards\"\n                target=\"_blank\" title=\"Share on Facebook
+        (opens in a new window)\" onClick=\"_gaq.push(['_trackEvent', 'Sharing', 'Facebook']);\"><span
+        class=\"accessibility\">\n                    Facebook</span></a></li>\n            <li
+        class=\"t\"><a href=\"http://twitter.com/home?status=Live Departure Boards
+        http://ojp.nationalrail.co.uk/service/ldbboard/dep/MAN/MIA/To\"\n                target=\"_blank\"
+        title=\"Share on Twitter (opens in a new window)\" onClick=\"_gaq.push(['_trackEvent',
+        'Sharing', 'Twitter']);\"><span class=\"accessibility\">\n                    Twitter</span></a></li>\n
+        \           <li class=\"e\"><a href=\"mailto:enter email address&amp;subject=Page%20Title&amp;body=http://www.nationalrail.co.uk\"\n
+        \               target=\"_blank\" title=\"Share by Email\" onClick=\"_gaq.push(['_trackEvent',
+        'Sharing', 'Email a friend']);\"><span class=\"accessibility\">Email</span></a></li>\n
+        \           <li class=\"di\"><a href=\"http://digg.com/submit?phase=2&amp;url=http://ojp.nationalrail.co.uk/service/ldbboard/dep/MAN/MIA/To\"\n
+        \               target=\"_blank\" title=\"Share on Digg (opens in a new window)\"
+        onClick=\"_gaq.push(['_trackEvent', 'Sharing', 'Digg']);\"><span class=\"accessibility\">\n
+        \                   Digg</span></a></li>\n            <li class=\"de\"><a
+        href=\"http://del.icio.us/post?url=http://ojp.nationalrail.co.uk/service/ldbboard/dep/MAN/MIA/To&amp;title=Live
+        Departure Boards\"\n                target=\"_blank\" title=\"Share on Delicious
+        (opens in a new window)\" onClick=\"_gaq.push(['_trackEvent', 'Sharing', 'Delicious']);\"><span
+        class=\"accessibility\">\n                    Delicious</span></a></li>\n
+        \           <li class=\"su\"><a href=\"http://www.stumbleupon.com/submit?url=http://ojp.nationalrail.co.uk/service/ldbboard/dep/MAN/MIA/To&amp;title=Live
+        Departure Boards\"\n                target=\"_blank\" title=\"Share on StumbleUpon
+        (opens in a new window)\" onClick=\"_gaq.push(['_trackEvent', 'Sharing', 'StumbleUpon']);\"><span
+        class=\"accessibility\">\n                    StumbleUpon</span></a></li>\n
+        \           <li class=\"r\"><a href=\"http://reddit.com/submit?url=http://ojp.nationalrail.co.uk/service/ldbboard/dep/MAN/MIA/To&amp;title=Live
+        Departure Boards\"\n                target=\"_blank\" title=\"Share on reddit
+        (opens in a new window)\" onClick=\"_gaq.push(['_trackEvent', 'Sharing', 'Reddit']);\"><span
+        class=\"accessibility\">\n                    reddit</span></a></li>\n        </ul>\n
+        \       <span class=\"n\"></span>\n        <form id=\"email\" class=\"clear\"
+        action=\"/service/sharing/shareviaemail?shareLink=http://ojp.nationalrail.co.uk/service/ldbboard/dep/MAN/MIA/To&pageTitle=Live
+        Departure Boards&redirectLink=\" method=\"post\">\n        <label for=\"se\">\n
+        \           <span class=\"accessibility\">Email a friend</span></label>\n
+        \       <input type=\"text\" id=\"se\" name=\"emailaddress\" value=\"Email
+        a friend\" />\n        <button type=\"submit\" class=\"b-y\" value=\"Send\">\n
+        \           <span>Send</span></button>\n        </form>\n    </div>\n</div>\n<!--End
+        of Share Menu-->\n\n            <form action=\"http://www.nationalrail.co.uk/search.aspx\"
+        method=\"get\" autocomplete=\"off\"\n            class=\"clear\">\n            <fieldset>\n
+        \               <label for=\"search\" class=\"accessibility\">\n                    Search
+        site</label>\n                <input type=\"text\" name=\"query\" id=\"search\"
+        class=\"search\" />\n                <button type=\"submit\" class=\"b-y\">\n
+        \                   <span>Search</span></button>\n            </fieldset>\n
+        \           </form>\n        </div>\n    </div>\n</div>\n\n    \n\n\n<div
+        class=\"leaderboard clear\" role=\"banner\">\n\t<div class=\"ad-placeholder\"
+        id=\"ad-placeholder-top\"></div>\n\t\n</div>\n<!-- end leaderboard-container
+        -->\n\t\n\t<div class=\"top-section\">\n        \n\t\t<div class=\"header\">\n\t\t\t<div
+        class=\"logo\"><a href=\"http://www.nationalrail.co.uk/\"><img class=\"sprite-home\"
+        src=\"/redesign/default/images/clear.gif\" width=\"283\" height=\"35\" alt=\"National
+        Rail Enquiries\" /></a></div>\n\t\t\t<div id=\"skip-nav-hold\"><a id=\"skip-nav\"
+        name=\"skip-nav\" tabindex=\"-1\" accesskey=\"2\"></a></div>\n            \n\t\t\t<div
+        class=\"nav\" role=\"navigation\">\n                <ul>\n                    <li>\n
+        \                       <a href=\"http://www.nationalrail.co.uk\" title=\"Home\"
+        accesskey=\"3\" class=\"first\"><span>Home</span></a>\n                    </li>\n
+        \                   <li>\n                        <a href=\"/service/planjourney/search\"
+        title=\"Train times &amp; tickets\" accesskey=\"4\"><span>Train times &amp;
+        tickets</span></a>\n                    </li>\n                    <li>\n
+        \                       <a href=\"http://www.nationalrail.co.uk/stations_destinations/\"
+        title=\"Stations &amp; on train\" accesskey=\"5\"><span>Stations &amp; on
+        train</span></a>\n                    </li>\n                    <li>\n                        <a
+        href=\"http://www.nationalrail.co.uk/service_disruptions/indicator.aspx\"
+        title=\"Changes to train times\" accesskey=\"6\"><span>Changes to train times</span></a>\n
+        \                   </li>                    \n                    <li>\n
+        \                       <a href=\"http://www.nationalrail.co.uk/1924.aspx\"
+        title=\"Help\"><span>Help</span></a>\n                    </li>\n                </ul>\n
+        \           </div><!-- end nav -->\n         </div>   \n        \n\n        \n<div
+        class=\"snav\">\n\t<ul>\n    \t<li class=\"first \"><a href=\"http://ojp.nationalrail.co.uk/service/planjourney/search\"
+        title=\"Journey planner\" class=\"\"><span>Journey planner</span></a></li>\n
+        \       <li class=\"selected\"><a href=\"http://www.nationalrail.co.uk/times_fares/ldb.aspx\"
+        title=\"Live departure boards\"><span>Live departure boards</span></a></li>\n
+        \       <li ><a href=\"http://ojp.nationalrail.co.uk/service/seasonticket/search\"
+        title=\"Season tickets calculator\" class=\"\"><span>Season ticket calculator</span></a></li>\n
+        \       <li><a href=\"http://www.nationalrail.co.uk/times_fares/ticket_types.aspx\"
+        title=\"Your ticket\"><span>Your ticket</span></a></li>\n        <li><a href=\"http://www.nationalrail.co.uk/times_fares/17.aspx\"
+        title=\"Railcards\"><span>Railcards</span></a></li>\n        <li><a href=\"http://www.nationalrail.co.uk/times_fares/18.aspx\"
+        title=\"Travel tools\" accesskey=\"6\"><span>Travel tools</span></a></li>\n
+        \       <li><a href=\"http://www.nationalrail.co.uk/times_fares/359.aspx\"
+        title=\"Special offers\"><span>Special offers</span></a></li>\n        <li
+        class=\"last\"><a href=\"http://www.nationalrail.co.uk/times_fares/timetables.aspx\"
+        title=\"Timetable\"><span>Timetables</span></a></li></ul>\n</div>\n            \n
+        \       \n\t\n\t</div>\n\t\n\t\r\n\r\n\r\n\r\n\r\n<script type=\"text/javascript\">var
+        $serviceId=\"\";</script>\r\n\r\n<div class=\"container c-150 clear\">\r\n
+        \   <div id=\"skip-content-hold\"><a id=\"skip-content\" name=\"skip-content\"
+        accesskey=\"1\"></a></div>\n\r\n\t<div class=\"content\">\r\n\r\n\t\t<div
+        class=\"livetrain-section main clear\">\r\n\t\t\t<div class=\"cB\">\r\n\t\t\t\t<div
+        class=\"c1\">\r\n\t\t\t\t\t<div class=\"padding\">\r\n\t\t\t\t\t\t<div class=\"box-8\">\r\n
+        \                           <div class=\"b8-t\">\r\n                                <div
+        class=\"b8-tr\">&nbsp;</div>\r\n                            </div>\r\n                            <div
+        class=\"b8-m\" id=\"livetrain-section-detail\">\r\n                                <div
+        class=\"b8-p clear\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"hc\">\r\n\t\t\t\t\t\t\t\t\t\t<h1
+        class=\"sifr\">Live <span class=\"sifr-blue\">departures &amp; arrivals</span></h1>\r\n
+        \                                       \r\n                                            \r\n
+        \                                           \r\n                                                <p
+        class=\"refresh\"><a href=\"?ar=true\" class=\"loz-btn refresh-link\"><span>Automatically
+        refresh this page</span></a></p>\r\n                                            \r\n
+        \                                       \r\n                                        \r\n
+        \                                       \t\r\n                                        \t<h2><span
+        class=\"from\">Manchester Piccadilly [<abbr>MAN</abbr>]<span><img height=\"26\"
+        width=\"12\" src=\"/redesign/default/images/clear.gif\" class=\"sprite-main\"
+        alt=\"\" />Manchester Airport [<abbr>MIA</abbr>]</span></span></h2>                                        \t\r\n
+        \                                       \t\r\n                                        \t\r\n
+        \                                      \t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n
+        \                                   <form id=\"ldbCommand\" action=\"/service/ldbboard/update\"
+        method=\"post\">\r\n                                        \r\n                                    </form>\r\n
+        \                                   <div id=\"live-departure-board\" class=\"timetable
+        departure-detail\">\r\n                                    \t<div>\r\n                                    \t\t\r\n
+        \                                   \t\t\t\r\n                                    \t\t\t\t\r\n
+        \                                   \t\t\t\r\n                                    \t\t\t\r\n
+        \                                   \t\t\r\n                                    \t\t<a
+        href=\"/service/travelalert/search?restart=true&ldb=true&dep=Manchester Piccadilly&arr=Manchester
+        Airport\" id=\"setupDistruptionAlert\" class=\"alert-bl sprite-main alert-popup\">\r\n
+        \                                   \t\t\t<span class=\"sprite-main\">\r\n
+        \                                   \t\t\t\t<span class=\"sprite-main\">Set
+        up Disruption Alerts</span>\r\n                                    \t\t\t</span>\r\n
+        \                                  \t\t\t</a>\r\n                                 \t\t
+        </div>\r\n                                    \t<ul class=\"timetable-tabs
+        clear\">\r\n                                            \r\n                                                \r\n
+        \                                               \r\n                                                    <li
+        class=\"departing active\"><span>Departing</span> | </li>\r\n                                                    <li
+        class=\"arriving\"><a href=\"/service/ldbboard/arr/MAN/MIA/From\">Arriving</a></li>\r\n
+        \                                               \r\n                                            \r\n
+        \                                       </ul>\r\n                                        <div
+        class=\"live-trains clear\">\r\n                                        \t<div
+        class=\"live-trains-right clear\">\r\n\t                                            <form
+        id=\"ldbCommand\" action=\"/service/ldbboard/update\" method=\"post\">\r\n
+        \                                                   <input type=\"hidden\"
+        name=\"commandName\" value=\"ldbCommand\" class=\"accessibility\"/>\r\n                                                    <span
+        class=\"accessibility\"><input id=\"depArrHidFlag\" name=\"departures\" type=\"hidden\"
+        value=\"true\"/></span>\r\n                                                    \r\n
+        \                                                   \r\n                                                        \r\n
+        \                                                       \r\n                                                            \r\n
+        \                                                           \r\n                                                            \r\n
+        \                                                       \r\n                                                    \r\n
+        \                                                   \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"\n\n\n\n\n\n\n\n    \n\n    \n\n\n\nvalid\n clear\">\r\n                                                        <label
+        id=\"train-action-first\" for=\"train-from\"><span class=\"hidden\">departing</span>from</label>\r\n
+        \                                                       <span class=\"input-border\"
+        >\r\n                                                            \r\n                                                            \r\n
+        \                                                           \r\n                                                            \r\n
+        \                                                           \r\n                                                            \r\n
+        \                                                           \r\n                                                            \n
+        \ \t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\n\n\n\t\n  \t\n  \t\t\n  \t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<input
+        id=\"train-from\" name=\"mainStation.searchTerm\" class=\"text predictText
+        ac_input\" type=\"text\" value=\"Manchester Piccadilly\"/><span class=\"sp-icon-holder
+        \">&nbsp;</span>\n\t\t\n\t\n\n\r\n                                                         </span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"\n\n\n\n\n\n\n\n    \n\n    \n\n\n\nvalid\n clear\">\r\n                                                        <label
+        id=\"train-action-second\" for=\"train-to\">to <span class=\"accessibility\">this
+        field is optional</span></label>\r\n                                                        <span
+        class=\"input-border\" >\r\n                                                            \r\n
+        \                                                           \r\n                                                            \r\n
+        \                                                           \r\n                                                            \r\n
+        \                                                           \r\n                                                            \r\n
+        \                                                           \n  \t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\n\n\n\t\n
+        \ \t\n  \t\t\n  \t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<input
+        id=\"train-to\" name=\"filterStation.searchTerm\" class=\"text predictText
+        ac_input\" type=\"text\" value=\"Manchester Airport\"/><span class=\"sp-icon-holder
+        \">&nbsp;</span>\n\t\t\n\t\n\n\r\n                                                         </span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<button
+        type=\"submit\" class=\"b-y not-IE6\"><span>Update</span></button>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<!--[if
+        IE 6]>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t   <span class=\"b-y\"><input type=\"submit\"
+        class=\"\" value=\"Update\" /></span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<![endif]-->\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t
+        \                                           </form>\r\n\t                                        </div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n
+        \                                       \r\n                                            \r\n
+        \                                           \r\n                                                \r\n
+        \                                           \r\n                                        \r\n
+        \                                      \t\r\n\t\t\t\t\t\t\t\t\t\t\r\n    \t\t\t\t\t\t\t\t\t\t\r\n
+        \                                       \t<div class=\"results trains\">\r\n
+        \                                       \t\t\r\n    \t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"timetable-progress earlier\">\r\n    \t\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"prog-int\">\r\n    \t\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t<a
+        href=\"?sip=-20\" class=\"earlier\" >\r\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t<img
+        height=\"24\" width=\"22\" src=\"/redesign/default/images/clear.gif\" class=\"sprite-main\"
+        alt=\"\"></img>Earlier trains\r\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\r\n
+        \   \t\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n    \t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n
+        \   \t\t\t\t\t\t\t\t\t\t\t</div>\r\n    \t\t\t\t\t\t\t\t            \n\n\n<div
+        class=\"tbl-cont\">\n    \n        \n        \n            \n        \n    \n\t<table
+        cellpadding=\"0\" cellspacing=\"0\" border=\"1\">\n\t\t<thead>\n\t\t    <tr>\n\t\t
+        \   \t<th width=\"10%\">Due</th>\n\t\t        <th width=\"45%\" class=\"destination\">Destination</th>\n\t\t
+        \       <th width=\"20%\">Status</th>\n\t\t        <th width=\"10%\">Platform</th>\n\t\t
+        \       <th width=\"15%\">Details</th>\n\t\t    </tr>\n\t    </thead>\n\t
+        \   <tbody>\n\t\t    \n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr class=\"firstRow\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \                <td class=\"status status-minor-delay\">15:14</td>\n\t\t\t\t
+        \           \n\t\t\t\t            \n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t\t                 <td
+        class=\"status status-minor-delay\">15:19 <br/> <span class=\"unbold\">5 <abbr
+        title=\"minutes\">mins</abbr> late</span></td>\n\t\t\t\t            \n\t\t\t
+        \           \n\t\t\t     \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td>9</td>\n\t\t
+        \           <td><a href=\"/service/ldbdetails/y%23zOc38LGt%2BG2%2B8Ttcy%2B6g%3D%3D\">Details
+        <span>for the 15:14</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr class=\"alt\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>15:24</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td>3</td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/HjOwjiMyIXrL%23gXAi%23eAQQ%3D%3D\">Details <span>for
+        the 15:24</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr >\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>15:29</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td>13</td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/RcXt5nQePSVUkHJzP%23eB6g%3D%3D\">Details <span>for
+        the 15:29</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr class=\"alt\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>15:37</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td>13</td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/VCdtX3X6WQ%23v1f7fmj2Vxg%3D%3D\">Details <span>for
+        the 15:37</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr >\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>15:46</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Crewe
+        via Manchester Airport \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td></td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/SsetbnmeEXb%234dPUG72p8g%3D%3D\">Details <span>for
+        the 15:46</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr class=\"alt\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>15:52</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td>4</td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/3dsCT721be8%2BGoGjlDjLHQ%3D%3D\">Details <span>for
+        the 15:52</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr >\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>15:58</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td>13</td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/LtcRZnNn%23t3q4TgYo%23Ggkw%3D%3D\">Details <span>for
+        the 15:58</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr class=\"alt\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>16:03</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td>13</td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/JgDzpgniEDyVoYUYTwjOTg%3D%3D\">Details <span>for
+        the 16:03</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr >\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>16:06</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td>9</td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/YOTwLBphbVaBmLc5WBjdKw%3D%3D\">Details <span>for
+        the 16:06</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr class=\"alt\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>16:14</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td></td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/nvcwqNrVfPwG4Ze9FRAiyg%3D%3D\">Details <span>for
+        the 16:14</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n                    \n                        \n                        \n
+        \                       \n                        \n                            \n
+        \                       \n                    \n                \n\t\t\t\t<tr
+        class=\"delayed\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \                <td class=\"status status-delay\">16:24</td>\n\t\t\t\t            \n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td class=\"destination\">\n
+        \                           \n                                Manchester Airport
+        \ \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t                 <td class=\"status
+        status-delay\">Delayed </td>\n\t\t\t\t            \n\t\t\t\t            \n\t\t\t
+        \           \n\t\t\t     \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td></td>\n\t\t
+        \           <td><a href=\"/service/ldbdetails/1FetxI%2BMJsClG7eP3AS3wA%3D%3D\">Details
+        <span>for the 16:24</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr class=\"alt\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>16:29</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td>13</td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/ZBxbnk%2BjKqCYzVjgWZaUqQ%3D%3D\">Details <span>for
+        the 16:29</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr >\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>16:37</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td>13</td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/vklHC8soHauG%23swXYzP%2BFg%3D%3D\">Details <span>for
+        the 16:37</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr class=\"alt\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>16:46</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Crewe
+        via Manchester Airport \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td></td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/YJ8xopkFy2th3Q6YQg7DYA%3D%3D\">Details <span>for
+        the 16:46</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr >\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>16:52</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td>4</td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/JQEHRTwGGyTeid13dO1MBA%3D%3D\">Details <span>for
+        the 16:52</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr class=\"alt\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>16:58</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td></td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/5nd6I5D9CIoy%2BkmTitG5pQ%3D%3D\">Details <span>for
+        the 16:58</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr >\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>17:03</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td></td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/%2BLt8NSFRqo5sARSvM8Tqhw%3D%3D\">Details <span>for
+        the 17:03</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr class=\"alt\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>17:06</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td>11</td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/hKgZDv%23cIRbQKsYpqkv%2BoA%3D%3D\">Details <span>for
+        the 17:06</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n
+        \               \n\t\t\t\t<tr >\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\t<td>17:14</td>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<td
+        class=\"destination\">\n                            \n                                Manchester
+        Airport  \n                            \n                        </td>\n\t\t\t\t\t\t\n\t\t\t\t
+        \           \n\t\t\t\t                 <td class=\"status\">On time</td>\n\t\t\t\t
+        \           \n\t\t\t\t\t\t\t\n\t\t\t\t            \n\t\t\t            \n\t\t\t
+        \    \t\n\t\t\t     \t\n\t\t\t     \t\n\t\t            <td></td>\n\t\t            <td><a
+        href=\"/service/ldbdetails/ivVxkSzYurTgMKYm%23s%234BA%3D%3D\">Details <span>for
+        the 17:14</span></a></td>\n\t\t         </tr>\n\t\t\t\n\t    </tbody>\n    </table>\n</div>\n\r\n
+        \   \t\t\t\t\t\t\t\t\t\t\t<div class=\"timetable-progress later clear\">\r\n
+        \   \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"prog-int clear\">\r\n    \t\t\t\t\t\t\t\t\t\t\t\t\t<p
+        class=\"float-left\">\r\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"?sip=20\"
+        class=\"later\">\r\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img height=\"24\" width=\"22\"
+        src=\"/redesign/default/images/clear.gif\" class=\"sprite-main\" alt=\"\">
+        Later trains\r\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\r\n    \t\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n
+        \   \t\t\t\t\t\t\t\t\t\t\t\t\t<ul>\r\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+        class=\"first uc\">Last updated: <strong>15:20</strong></li>\r\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+        href=\"?sip=0\" class=\"update\">Update now</a></li>\r\n    \t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n
+        \   \t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n    \t\t\t\t\t\t\t\t\t\t\t</div><!--
+        end timetable-progress -->\r\n                                            </div>\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n
+        \                               </div>\r\n\t\t\t\t\t\t\t\t<div class=\"base\"></div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"box-17\">\n\t<div class=\"b17-t\"><div class=\"b17-tr\"></div></div>\n\t<div
+        class=\"b17-m\">\n\t\t<div class=\"b17-p-alt\">\n\t\t\t<div class=\"daily-commute\">\n\t\t\t\t<img
+        alt=\"\" class=\"sprite-main sprite-person\" src=\"/redesign/default/images/clear.gif\"
+        width=\"50\" height=\"51\" />\n\t\t\t\t<h3>Checking your daily commute?</h3>\n\t\t\t\t<p>Register
+        now and save this information on your personalised homepage. </p><p><a href=\"/personal/registration/register\"
+        class=\"arrowlink-light\"><img alt=\"\" class=\"sprite-main\" src=\"/redesign/default/images/clear.gif\"
+        width=\"10\" height=\"8\" />Quick register</a></p>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div
+        class=\"b17-b\"><div class=\"b17-br\"></div></div>\n</div>\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<div
+        class=\"box-17\">\n\t<div class=\"b17-t\"><div class=\"b17-tr\"></div></div>\n\t<div
+        class=\"b17-m\">\n\t\t<div class=\"b17-p clear\">\n\t\t\t<div class=\"b-i\">\n\t\t\t\t<h2>Key</h2>\n\t\t\t\t<div
+        class=\"two-col-50pc clear key\">\n\t\t\t\t\t<div class=\"c1\">\n\t\t\t\t\t\t<dl>\n\t\t\t\t\t\t\t<dt>Delayed</dt>\n\t\t\t\t\t\t\t<dd>This
+        service is delayed</dd>\n\t\t\t\t\t\t\t<dt>No report</dt>\n\t\t\t\t\t\t\t<dd>There
+        is no report on the progress of this service yet</dd>\n\t\t\t\t\t\t\t<dt>Cancelled</dt>\n\t\t\t\t\t\t\t<dd>The
+        service has been cancelled</dd>\n\t\t\t\t\t\t</dl>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div
+        class=\"c2\">\n\t\t\t\t\t\t<dl>\n\t\t\t\t\t\t\t<dt>On time</dt>\n\t\t\t\t\t\t\t<dd>This
+        service is on time</dd>\n\t\t\t\t\t\t\t<dt>Start here</dt>\n\t\t\t\t\t\t\t<dd>The
+        service has not yet started the journey</dd>\n\t\t\t\t\t\t\t<dt class=\"larger-font\">*</dt>\n\t\t\t\t\t\t\t<dd>The
+        expected report for this service is overdue</dd>\n\t\t\t\t\t\t</dl>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<ul
+        class=\"arrowlinklist-light\">\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"http://www.nationalrail.co.uk/46381.aspx\"><img
+        alt=\"\" class=\"sprite-main\" src=\"/redesign/default/images/clear.gif\"
+        width=\"10\" height=\"8\" />About Live Departure Boards</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a
+        href=\"http://www.nationalrail.co.uk/times_fares/46467.aspx\"><img alt=\"\"
+        class=\"sprite-main\" src=\"/redesign/default/images/clear.gif\" width=\"10\"
+        height=\"8\" />Live Departure Boards Limitations</a>\n\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div
+        class=\"b17-b\"><div class=\"b17-br\"></div></div>\n</div>\r\n                                   \r\n\t\t\t\t\t\t\t\t</div>\r\n
+        \                           </div>\r\n                            <div class=\"b8-b\">\r\n
+        \           \t               \t<div class=\"b8-br\">&nbsp;</div>\r\n                \t
+        \    \t</div>\r\n                   \t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div><!--
+        end c1 -->\r\n\t\t\t<div class=\"c2\">\r\n\t\t\t\t<div class=\"padding\">\r\n\t\t\t\t\t<div
+        class=\"op-3 op-red\">\n    <div class=\"heading-left\">\n        <div class=\"heading-right\">\n
+        \           <div class=\"heading-wrapper\">\n                <h3 class=\"sifr\">TrainTracker</h3>\n
+        \           </div>\n        </div>\n    </div>\n    <div class=\"bg\">\n        <img
+        height=\"320\" width=\"220\" alt=\"\" src=\"/redesign/default/images/img-departure-board4.jpg\"
+        class=\"overlay-img\" />\n        <div class=\"overlay-left\">\n            <div
+        class=\"overlay-right\">\n                <div class=\"padding\">\n                    <div
+        class=\"train-tracker no-neg-margin\">\n                        <p class=\"contact
+        no-bottom\">\n                            Call <strong>0871<br />200 49 50</strong></p>\n
+        \                   </div>\n                    <p class=\"no-bottom\">\n
+        \                       Call for live arrival/ departure information over
+        the phone.</p>\n                    <ul class=\"arrowlinklist-light no-top-padding\">\n
+        \                       <li><a href=\"http://www.nationalrail.co.uk/times_fares/2104.aspx\"><img
+        alt=\"\" class=\"sprite-main\" src=\"/redesign/default/images/clear.gif\"
+        width=\"10\" height=\"8\" />Find out about TrainTracker</a></li>\n                    </ul>\n
+        \                   <div class=\"sms\">\n                        <p class=\"contact
+        no-bottom\">\n                            Text <strong>8 49 50</strong></p>\n
+        \                   </div>\n                    <p class=\"no-bottom\">\n
+        \                       Text for arrival/departure information of your station
+        or journey.</p>\n                    <ul class=\"arrowlinklist-light no-padding\">\n
+        \                       <li><a href=\"http://www.nationalrail.co.uk/times_fares/1954.aspx\"><img
+        alt=\"\" class=\"sprite-main\" src=\"/redesign/default/images/clear.gif\"
+        width=\"10\" height=\"8\" />Find out about TrainTracker Text</a></li>\n                    </ul>\n
+        \               </div>\n            </div>\n        </div>\n    </div>\n</div>\r\n\t\t\t\t\t<div
+        class=\"op-3 op-grey\">\n    <div class=\"heading-left\">\n        <div class=\"heading-right\">\n
+        \           <div class=\"heading-wrapper\">\n                <h3 class=\"sifr\">Stations
+        services &amp; facilities</h3>\t\n            </div>\n        </div>\n    </div>\n
+        \   <div class=\"bg\">\n        <img class=\"overlay-img\" src=\"/redesign/default/images/img-departure-board.jpg\"
+        width=\"220\" height=\"249\" alt=\"\" />\n        <div class=\"overlay-left\">\n
+        \           <div class=\"overlay-right\">\n                <div class=\"padding
+        clear\">\n\t\t\t\t\t<form name=\"findStationForm\" action=\"http://www.nationalrail.co.uk/search.aspx\"
+        method=\"get\">\n\t                    <h4 class=\"subhead\">Find out if your
+        station has:</h4> \n\t\t\t\t\t\t<p>Parking facilities, accessibility access,
+        toilets &amp; baby changing facilities and much more.</p>\n\t                    <label
+        for=\"station\"><strong>Enter station name or 3-character code</strong></label>\n\t
+        \                   <div class=\"valid clear\">\n\t\t\t\t\t\t\t<span class=\"input-border\">\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" name=\"query\" class=\"station predictText\" id=\"station\"
+        value=\"Station\" />\n\t\t\t\t\t\t\t\t<span class=\"sp-icon-holder\">&nbsp;</span>\n\t\t\t\t\t\t\t</span>\n\t
+        \                   </div>\n\t                    <button type=\"submit\"
+        class=\"b-y not-IE6\"><span>Search</span></button>\n\t\t\t\t\t\t<!--[if IE
+        6]><span class=\"b-y\"><input type=\"submit\" class=\"\" value=\"Search\"
+        /></span><![endif]-->\n\t\t\t\t\t</form>\n                </div>\n            </div>\n
+        \       </div>\n    </div>\n</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div><!-- end
+        c2 -->\r\n\t\t</div><!-- end cA -->\r\n\t</div>\r\n\t            <div class=\"additional\">\n
+        \               <div class=\"padding\"> \n\t\t\t\t\t<div class=\"ad-placeholder\"
+        id=\"ad-placeholder-side\"></div>\n\t\t\t\t</div>\n            </div>\r\n\t\t\t\t\n<div
+        class=\"breadcrumb\">\n\t<div class=\"padding clear\">\n\t\t<p>You are here:</p>\n\t\t<ol
+        class=\"clear\">\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n                \n
+        \                   <li class=\"home\"><a id=\"homeBreadcrumbLink\" href=\"http://www.nationalrail.co.uk\">Home</a></li>\n
+        \                   <li><a href=\"/service/planjourney/search\">Train times
+        &amp; tickets</a></li>\n                    <li>Live Departure Boards</li>\n
+        \               \n\t\t\t\n\t\t</ol>\n\t</div>\n</div>\r\n</div><!-- end content
+        -->\r\n</div>\n\n\t\n\n\n\t<div class=\"footer-container image-1 clear\"><div
+        class=\"f-img\">\n\t\t<div class=\"footer\">\n\t\t\t<div class=\"cols4\">\n\t\t\t\t<div
+        class=\"padding clear f-ol-t\">\n\t\t\t\t\t<div class=\"col\">\n\t\t\t\t\t\t<h2>Train
+        times &amp; tickets</h2>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"http://ojp.nationalrail.co.uk/service/planjourney/search\">Journey
+        planner</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.nationalrail.co.uk/times_fares/ldb.aspx\">Live
+        departure board</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://ojp.nationalrail.co.uk/service/farefinder/search\">Cheapest
+        fare finder</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.nationalrail.co.uk/times_fares/ticket_types.aspx\">Your
+        ticket</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.nationalrail.co.uk/times_fares/18.aspx\">Travel
+        tools</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.nationalrail.co.uk/times_fares/359.aspx\">Special
+        offers</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.nationalrail.co.uk/times_fares/timetables.aspx\">Timetable</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div><!--
+        end col -->\n\t\t\t\t\t<div class=\"col\">\n\t\t\t\t\t\t<h2>Plan your Journey</h2>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a
+        href=\"http://www.nationalrail.co.uk/stations_destinations/maps.aspx\">Rail
+        maps</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.nationalrail.co.uk/stations_destinations/default.aspx\">Stations
+        &amp; destinations</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.nationalrail.co.uk/stations_destinations/onboard.aspx\">On
+        the train</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.nationalrail.co.uk/stations_destinations/disabled_passengers.aspx\">Passengers
+        with disabilities</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.nationalrail.co.uk/stations_destinations/cyclists.aspx\">Cyclists</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"http://www.nationalrail.co.uk/stations_destinations/luggage_animals.aspx\">Animals
+        and luggage</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div><!-- end col -->\n\t\t\t\t\t<div
+        class=\"col\">\n\t\t\t\t\t\t<h2>Changes to train times</h2>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a
+        href=\"http://www.nationalrail.co.uk/service_disruptions/today.aspx\">Current
+        service disruptions</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.nationalrail.co.uk/service_disruptions/currentAndFuture.aspx\">Engineering
+        work</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.nationalrail.co.uk/service_disruptions/47.aspx\">Special
+        seasonal events</a></li>\n\t\t\t\t\t\t\t<li><a href=\"http://www.nationalrail.co.uk/service_disruptions/48.aspx\">Timetable
+        changes</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div><!-- end col -->\n\t\t\t\t\t<!--
+        end col -->\n\t\t\t\t</div> <!-- end padding clear f-ol-t -->\n\n\n\n\n\n\n\n\t\n
+        \       \n            <div class=\"padding clear f-ol-b\">\n\t\t\t\t<div class=\"ad-placeholder\"
+        id=\"ad-placeholder-bottom\"></div>\n\t\t\t</div>\n        \n\t\n\n\t\t\t\t</div><!--
+        end cols4 -->\r\n\t\t\t</div><!-- end footer -->\r\n\t\t</div></div><!-- end
+        footer container -->\r\n\t<div class=\"f-links clear\" role=\"content-info\">\r\n\t\t<ul>\r\n\t\t\t<li
+        class=\"first\"><a href=\"http://www.nationalrail.co.uk/46383.aspx\">About
+        this site</a></li>\r\n\t\t\t<li><a href=\"http://www.nationalrail.co.uk/tocs_maps/tocs/TrainOperators.aspx\">Train
+        Operating Companies</a></li>\r\n\t\t\t<li><a href=\"http://www.nationalrail.co.uk/46637.aspx\">Sitemap</a></li>\r\n\t\t\t<li><a
+        href=\"http://www.nationalrail.co.uk/46387.aspx\">Accessibility</a></li>\r\n\t\t\t<li><a
+        href=\"http://www.nationalrail.co.uk/46385.aspx\">Terms &amp; Conditions</a></li>\r\n\t\t\t<li><a
+        href=\"http://www.nationalrail.co.uk/46389.aspx\">Privacy</a></li>\r\n\t\t\t<li><a
+        href=\"http://www.nationalrail.co.uk/contact/feedback/48304.aspx\">Contact
+        us</a></li>\r\n\t\t</ul>\r\n        <a class=\"ad-choices\" href=\"http://www.youronlinechoices.eu/\"
+        target=\"_blank\"><span>Ad Choices</span><img src=\"/redesign/default/images/ad-choices.gif\"
+        alt=\"Ad Choices\" width=\"13\" height=\"13\" /></a>\r\n\t</div><!-- end links
+        -->\r\n\t<div class=\"shortcuts shortcuts-bottom\">\r\n\t\t<ul>\r\n\t\t\t<li><a
+        href=\"#skip-shortcuts\" accesskey=\"5\">Back to top [Accesskey '5']</a></li>\r\n\t\t</ul>\r\n\t</div>\r\n\t<!--PubMatic
+        Universal Pixel tag (Javascript) -->\r\n\t<script type='text/javascript'>\r\n\tvar
+        pubId=29907;\r\n\tvar pixId=170;\r\n\t</script>\r\n\t<script src='http://ads.pubmatic.com/AdServer/js/universalpixel.js'
+        type='text/javascript'></script>   \t\n\n</div>\n\n\n\n\n<div id=\"picker\"
+        aria-live=\"assertive\" aria-atomic=\"true\" aria-relevant=\"additions removals\">\n\n\n\n\n\n\n\n
+        \               \n\n\n\n\n\n<ul id=\"d\" class=\"s\"><li class=\"no-sel no-pad\">Please
+        type your station name</li><hr class=\"sp no-sel\" style=\"display: block;\"><li
+        id=\"sp-new\" class=\"h not-new\" style=\"display: block;\"> </li>\t<li id=\"sp-p2pad\"
+        class=\"link\" style=\"display: block;\"><a title=\"More information on postcode
+        planning\" href=\"http://www.nationalrail.co.uk/times_fares/postcode.html\">Search
+        by postcode</a></li></ul> \n\n<div class=\"s\" id=\"p1\">\n<ul id=\"p2\">\n</ul>\n</div>\n<ul
+        id=\"n\">\n<li class=\"no-sel no-pad\">Sorry, no stations found. </li>\n</ul>\n<ul
+        id=\"sp-s-e\">\n<li></li>\n</ul><ul id=\"je\">\n<li class=\"no-sel no-pad\">Sorry,
+        we can't plan this journey. </li>\n</ul>\n<ul id=\"loading\">\n<li class=\"no-sel
+        no-pad\">Loading stations... </li>\n</ul>\n<ul id=\"sp-postcode\">\n\t\n</ul>\n<!--[if
+        lte IE 6]><iframe id=\"picker_iframe\" frameborder=\"0\" tabindex=\"-1\" src=\"javascript:false;\"></iframe><![endif]--></div>\n\n<div
+        id=\"dp\"><ul><li>Today</li><li>Tomorrow</li></ul><img src=\"/redesign/default/images/clear.gif\"
+        width=\"22\" height=\"22\" class=\"sprite-main prev\" alt=\"\"/><img src=\"/redesign/default/images/clear.gif\"
+        width=\"22\" height=\"22\" class=\"sprite-main next\" alt=\"\"/><p title=\"/08/2014\">August
+        2014</p><p title=\"/09/2014\">September 2014</p><p title=\"/10/2014\">October
+        2014</p><div></div><!--[if lte IE 6]><iframe id=\"dp_iframe\" frameborder=\"0\"
+        tabindex=\"-1\" src=\"javascript:false;\"></iframe><![endif]--></div>\n\n\n<script
+        type=\"text/javascript\" src=\"//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js\"></script>\n<!--[if
+        IE 6]><script type=\"text/javascript\" src=\"/redesign/default/javascript/functions.IE6.js\"></script><![endif]-->\n<script
+        type=\"text/javascript\" src=\"/redesign/default/javascript/functions.other.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/redesign/default/javascript/functions.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/redesign/default/javascript/thales-functions.js\"></script>\n\n<script
+        type=\"text/javascript\" src=\"//d2uncb19xzxhzx.cloudfront.net/ga.js\"></script>\n\n\n\n\n\n\n\n\n\n\n\t\n
+        \       \n        \t<div class=\"ad\" id=\"ad-top\" role=\"banner\">\n\t\t\t
+        \   <div class=\"ad-info\">\n\t\t\t        <a href=\"http://www.nationalrail.co.uk/contact/feedback/advertising.aspx?ad_slot=bottom_leaderboard\"
+        class=\"sprite-main\">Advertisement information</a>\n\t\t\t    </div> \n\t\t\t
+        \  <script type=\"text/javascript\">\n\t\t\t        googletag.cmd.push(function
+        () {\n\t\t\t            googletag.display(\"ad-top\");\n\t\t\t        });\n\t\t\t
+        \t</script>\n\t\t\t \t\n\t\t\t    <noscript>\n\t\t\t    \t\n\t\t\t\t    \t\n\t\t\t
+        \       \t\n\t\t\t        \t\t<a href=\"http://pubads.g.doubleclick.net/gampad/jump?iu=7369/nre/train_time/live_depart/results&sz=728x90&t=;user=public;locst=MAN;destst=MIA;status=del;status=can;toc=NT;toc=TP;\"
+        >\n\t\t\t\t        \t\t<img src=\"http://pubads.g.doubleclick.net/gampad/ad?iu=7369/nre/train_time/live_depart/results&sz=728x90t=;user=public;locst=MAN;destst=MIA;status=del;status=can;toc=NT;toc=TP;\"
+        />\n\t\t\t\t        \t</a>\n\t\t\t        \t\n\t\t\t\t\t\n\t\t    \t</noscript>
+        \n\t\t\t       \n\t\t\t</div>\n\t\t\t<div class=\"ad\" id=\"ad-bottom\" role=\"banner\">\n\t\t\t
+        \   <div class=\"ad-info\">\n\t\t\t        <a href=\"http://www.nationalrail.co.uk/contact/feedback/advertising.aspx?ad_slot=bottom_leaderboard\"
+        class=\"sprite-main\">Advertisement information</a>\n\t\t\t    </div>\n\t\t\t\t<script
+        type=\"text/javascript\">\n\t\t\t        googletag.cmd.push(function () {\n\t\t\t
+        \           googletag.display(\"ad-bottom\");\n\t\t\t        });\n\t\t\t \t</script>\n\t\t\t
+        \t<noscript>\n\t\t\t    \t\n\t\t\t\t    \t\n\t\t\t        \t\n\t\t\t        \t\t<a
+        href=\"http://pubads.g.doubleclick.net/gampad/jump?iu=7369/nre/train_time/live_depart/results&sz=6x1&t=;user=public;locst=MAN;destst=MIA;status=del;status=can;toc=NT;toc=TP;\"
+        >\n\t\t\t\t        \t\t<img src=\"http://pubads.g.doubleclick.net/gampad/ad?iu=7369/nre/train_time/live_depart/results&sz=6x1&t=;user=public;locst=MAN;destst=MIA;status=del;status=can;toc=NT;toc=TP;\"
+        />\n\t\t\t\t        \t</a>\n\t\t\t        \t\n\t\t\t\t\t\n\t\t    \t</noscript>
+        \    \n\t\t\t    \n\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t\t<div class=\"ad css-pos\"
+        id=\"ad-side\" role=\"banner\">\n\t\t\t    <div id=\"innerad\">\n\t\t\t\t
+        \   <div id=\"inad1\">\n\t\t\t\t\t    <div id=\"inad2\">\n\t\t\t\t\t\t\t<div
+        class=\"ad\" id=\"ad-side-1\" role=\"banner\">\n\t\t\t\t\t\t\t    <div class=\"ad-side-1\">\n\t\t\t\t\t\t\t
+        \       <div class=\"ad-info\">\n\t\t\t\t\t\t\t            <a href=\"http://www.nationalrail.co.uk/contact/feedback/advertising.aspx?ad_slot=button\"
+        class=\"sprite-main\">Advertisement information</a>\n\t\t\t\t\t\t\t        </div>\n\t\t\t\t\t\t\t
+        \       \n\t\t\t\t\t\t\t         <script type=\"text/javascript\">\n\t\t\t\t\t\t\t\t
+        \       googletag.cmd.push(function () {\n\t\t\t\t\t\t\t\t            googletag.display(\"ad-side-1\");\n\t\t\t\t\t\t\t\t
+        \       });\n\t\t\t\t\t\t\t\t \t</script>\n\t\t\t\t\t\t\t\t \t<noscript>\n\t\t\t\t\t\t\t\t
+        \   \t\n\t\t\t\t\t\t\t\t\t    \t\n\t\t\t\t\t\t\t\t        \t\n\t\t\t\t\t\t\t\t
+        \       \t\t<a href=\"http://pubads.g.doubleclick.net/gampad/jump?iu=7369/nre/train_time/live_depart/results&sz=6x1&t=;user=public;locst=MAN;destst=MIA;status=del;status=can;toc=NT;toc=TP;\"
+        >\n\t\t\t\t\t\t\t\t\t        \t\t<img src=\"http://pubads.g.doubleclick.net/gampad/ad?iu=7369/nre/train_time/live_depart/results&sz=6x1&t=;user=public;locst=MAN;destst=MIA;status=del;status=can;toc=NT;toc=TP;\"
+        />\n\t\t\t\t\t\t\t\t\t        \t</a>\n\t\t\t\t\t\t\t\t        \t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t
+        \   \t</noscript> \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \n\t\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t\t
+        \   <div id=\"ad-side-2\" class=\"ad-side-2\">\n\t\t\t\t\t\t\t        <div
+        class=\"ad-info\">\n\t\t\t\t\t\t\t            <a href=\"http://www.nationalrail.co.uk/contact/feedback/advertising.aspx?ad_slot=sky\"
+        class=\"sprite-main\">Advertisement information</a>\n\t\t\t\t\t\t\t        </div>\n\t\t\t\t\t\t\t
+        \        <script type=\"text/javascript\">\n\t\t\t\t\t\t\t\t        googletag.cmd.push(function
+        () {\n\t\t\t\t\t\t\t\t            googletag.display(\"ad-side-2\");\n\t\t\t\t\t\t\t\t
+        \       });\n\t\t\t\t\t\t\t\t \t</script>\n\t\t\t\t\t\t\t\t \t<noscript>\n\t\t\t\t\t\t\t\t
+        \   \t\n\t\t\t\t\t\t\t\t\t    \t\n\t\t\t\t\t\t\t\t        \t\n\t\t\t\t\t\t\t\t
+        \       \t\t<a href=\"http://pubads.g.doubleclick.net/gampad/jump?iu=7369/nre/train_time/live_depart/results&sz=6x1&t=;user=public;locst=MAN;destst=MIA;status=del;status=can;toc=NT;toc=TP;\"
+        >\n\t\t\t\t\t\t\t\t\t        \t\t<img src=\"http://pubads.g.doubleclick.net/gampad/ad?iu=7369/nre/train_time/live_depart/results&sz=6x1&t=;user=public;locst=MAN;destst=MIA;status=del;status=can;toc=NT;toc=TP;\"
+        />\n\t\t\t\t\t\t\t\t\t        \t</a>\n\t\t\t\t\t\t\t\t        \t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t
+        \   \t</noscript> \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\t\n\t\t\n\t\n\n\n<script
+        type=\"text/javascript\" src=\"//d1bxx5k5nm0lnj.cloudfront.net/foresee-trigger.js\"></script>\n\n<script
+        type=\"text/javascript\" src=\"//d2uncb19xzxhzx.cloudfront.net/autonomy/optimost_global_body1.js\"></script>\n<script
+        type=\"text/javascript\" src=\"//d2uncb19xzxhzx.cloudfront.net/autonomy/optimost_global_body2.js\"></script>\n\n\n\n\n</body>\n</html>\n\n\t"
+    http_version:
+  recorded_at: Tue, 05 Aug 2014 14:20:47 GMT
+recorded_with: VCR 2.9.2
