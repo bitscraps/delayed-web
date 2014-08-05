@@ -1,45 +1,83 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/graham/Sites/delayed/app/controllers/api/notifications_controller.rb": [
+      "/Users/grahamhadgraft/Sites/mysites/delayed-web/app/controllers/api/departures_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
         1,
         null,
         1,
         null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/grahamhadgraft/Sites/mysites/delayed-web/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/grahamhadgraft/Sites/mysites/delayed-web/lib/timetable.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        6,
         1,
         null,
         null,
         null,
         null,
+        1,
+        1,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        1,
+        1,
         1,
         1,
         null,
         0,
         null,
         null,
-        1,
+        0,
         null,
-        null
-      ],
-      "/Users/graham/Sites/delayed/app/controllers/application_controller.rb": [
-        1,
         null,
         null,
         1,
-        null
-      ],
-      "/Users/graham/Sites/delayed/app/models/notification.rb": [
         1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1407180265
+    "timestamp": 1407241103
   }
 }
