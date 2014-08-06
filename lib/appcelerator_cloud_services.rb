@@ -20,7 +20,7 @@ class AppceleratorCloudServices
         	"https://api.cloud.appcelerator.com/v1/push_notification/notify.json?key=#{@key}&pretty_json=true",
             cookiefile: "/tmp/acs_cookie.txt", cookiejar: "/tmp/acs_cookie.txt",
         	method: :post,
-        	body: {channel: channel, to_ids: "everyone", payload: message}
+        	body: {channel: channel, to_ids: "everyone", payload: {"alert" => message, "sound" => "default"}}
         )
         SentNotification.create(message:message, channel: channel)
         response = request.run
