@@ -11,4 +11,15 @@ describe Api::NotificationsController do
     end
   end
 
+  describe "DELETE" do
+  	it "destroys a matching notification" do
+  	  Notification.create(departing_from: "Ipswich", departing_from_code: "IPS", arriving_at: "Stowmarket", arriving_at_code: "SMK", departing_time: "15:45", repeating: "mon, tue, wed, thu, fri, ", device: "device_token")
+  	  Notification.create(departing_from: "Ipswich", departing_from_code: "IPS", arriving_at: "Stowmarket", arriving_at_code: "SMK", departing_time: "15:45", repeating: "mon, tue, wed, ", device: "device_token")
+  	  Notification.create(departing_from: "Ipswich", departing_from_code: "IPS", arriving_at: "Stowmarket", arriving_at_code: "SMK", departing_time: "15:45", repeating: "mon, tue, wed, thu, fri, ", device: "test")
+
+  	  delete :destroy, {id: 1, "from_code" => "IPS", "to_code" => "SMK", "departing_at" => "15:45", "repeating" => "mon, tue, wed, thu, fri, ", "device" => "device_token"}
+      expect(Notification.all.size).to eq 2
+  	end
+  end
+
 end
