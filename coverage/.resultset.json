@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/graham/Sites/delayed/app/controllers/api/notifications_controller.rb": [
+      "/Users/grahamhadgraft/Sites/mysites/delayed-web/app/controllers/api/notifications_controller.rb": [
         1,
         null,
         1,
@@ -28,28 +28,30 @@
         null,
         null,
         1,
-        0,
+        1,
+        null,
+        1,
+        1,
         null,
         0,
-        0,
         null,
-        0,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/grahamhadgraft/Sites/mysites/delayed-web/app/controllers/application_controller.rb": [
+        1,
+        null,
         null,
         null,
         null
       ],
-      "/Users/graham/Sites/delayed/app/controllers/application_controller.rb": [
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/graham/Sites/delayed/app/models/notification.rb": [
+      "/Users/grahamhadgraft/Sites/mysites/delayed-web/app/models/notification.rb": [
         1,
         null
       ]
     },
-    "timestamp": 1407272437
+    "timestamp": 1407409843
   }
 }
