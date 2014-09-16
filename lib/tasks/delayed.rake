@@ -10,15 +10,16 @@ namespace :delayed do
   	#puts  Notification.select("DISTINCT departing_from_code, arriving_at_code, departing_time").where("(departing_time LIKE ? OR departing_time LIKE ?) AND repeating LIKE ?", "21:%", "22:%", "%#{weekdays[Time.now.wday]}%").to_sql
 
     @acs = AppceleratorCloudServices.new
-
-  	@checks.each do |train|
+    
+  	
+    @checks.each do |train|
   		@departure = Timetable.new(train.departing_from_code, train.arriving_at_code, train.departing_time)
   		if @departure.status_is_available? && @departure.is_delayed?
-        	message = "The #{train.departing_time} from #{train.departing_from_code} to #{train.arriving_at_code} is #{@departure.get_delay_length} and is now due at #{@departure.get_new_departure_time}"
- 			channel = "#{train.departing_from_code}-#{train.arriving_at_code}-#{train.departing_time}-#{weekdays[Time.now.wday]}"
+       	message = "The #{train.departing_time} from #{train.departing_from_code} to #{train.arriving_at_code} is #{@departure.get_delay_length} and is now due at #{@departure.get_new_departure_time}"
+ 			  channel = "#{train.departing_from_code}-#{train.arriving_at_code}-#{train.departing_time}-#{weekdays[Time.now.wday]}"
 
-        	@acs.send_notification(message, channel) if @acs.new_message?
- 		end
+       	@acs.send_notification(message, channel) if @acs.new_message?(message, channel)
+ 		  end
   	end
   end
 

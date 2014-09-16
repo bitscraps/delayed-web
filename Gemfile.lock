@@ -178,6 +178,9 @@ GEM
     rspec-core (2.99.1)
     rspec-expectations (2.99.1)
       diff-lcs (>= 1.1.3, < 2.0)
+    rspec-its (1.0.1)
+      rspec-core (>= 2.99.0.beta1)
+      rspec-expectations (>= 2.99.0.beta1)
     rspec-mocks (2.99.1)
     rspec-rails (2.99.0)
       actionpack (>= 3.0)
@@ -297,10 +300,12 @@ DEPENDENCIES
   nokogiri
   poltergeist
   rails (= 4.1.2)
+  rake
   rb-fchange
   rb-fsevent
   rb-inotify
   redcarpet
+  rspec-its
   rspec-rails (~> 2.0)
   rubyntlm
   sass-rails (~> 4.0.3)

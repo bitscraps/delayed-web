@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.cloud.appcelerator.com/v1/users/login.json?key=KVJOFzVqhJwchXFYnAT1tb0YSTGjqoPS
+    body:
+      encoding: US-ASCII
+      string: login=graham.hadgraft@gmail.com&password=mxey5824
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.9
+      Date:
+      - Tue, 16 Sep 2014 19:09:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - '200'
+      X-Powered-By:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.9
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - x-requested-with, Authorization
+      Access-Control-Allow-Credentials:
+      - 'true'
+      ETag:
+      - '"250d43e5532f170d909330c7e48fb095"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      Set-Cookie:
+      - _session_id=3vJHEraRki1bKRgHaeQ9bCL7oSE; path=/; HttpOnly
+      X-Runtime:
+      - '0.304627'
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"code":200,"status":"ok","method_name":"loginUser","session_id":"3vJHEraRki1bKRgHaeQ9bCL7oSE"},"response":{"users":[{"id":"53e0c1fd7fd3647be00070fe","first_name":"Graham","last_name":"Hadgraft","created_at":"2014-08-05T11:37:33+0000","updated_at":"2014-09-16T19:09:28+0000","external_accounts":[],"confirmed_at":"2014-08-05T11:37:33+0000","username":"g_hadgraft","role":"Admin","admin":"false","stats":{"photos":{"total_count":0},"storage":{"used":0}},"email":"graham.hadgraft@gmail.com"}]}}'
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://api.cloud.appcelerator.com/v1/users/login.json?key=KVJOFzVqhJwchXFYnAT1tb0YSTGjqoPS
+  recorded_at: Tue, 16 Sep 2014 19:09:28 GMT
+recorded_with: VCR 2.9.2

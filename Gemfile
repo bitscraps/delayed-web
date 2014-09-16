@@ -13,7 +13,7 @@ gem 'chronic'
 gem 'national_rail'
 gem 'rubyntlm'
 gem 'typhoeus'
-
+gem 'rake'
 
 gem 'nokogiri'
 
@@ -49,6 +49,7 @@ group :test do
   gem 'simplecov', :require => false
   gem 'vcr'
   gem 'webmock'
+  gem 'rspec-its'
 end
 
 # Use ActiveModel has_secure_password
