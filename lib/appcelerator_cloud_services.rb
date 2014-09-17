@@ -10,7 +10,7 @@ class AppceleratorCloudServices
             cookiefile: "/tmp/acs_cookie.txt", cookiejar: "/tmp/acs_cookie.txt",
             method: :post,
             followlocation: true,
-            body: {login: 'graham.hadgraft@gmail.com', password: 'mxey5824'}
+            body: {login: 'graham.hadgraft@gmail.com', password: 'tu7cw3ba'}
         )
         request.run
     end
