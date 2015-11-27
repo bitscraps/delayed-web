@@ -16,7 +16,7 @@ gem 'typhoeus'
 gem 'rake'
 
 gem 'nokogiri'
-
+gem 'coveralls', require: false
 
 
 group :development, :test do
